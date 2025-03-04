@@ -38,4 +38,4 @@ const apiUrls = [
 
 fetchDataFromMultipleAPIs(apiUrls)
   .then((result) => console.log(result))
-  .catch((error) => console.error("Error:", error));
+  .catch((error) => console.log("Error:", error));
